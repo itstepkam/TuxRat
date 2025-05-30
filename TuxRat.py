@@ -571,7 +571,7 @@ class GENERATOR:
 
     def get_path(self):
         dirname = os.path.dirname(__file__)
-        dirname = os.path.join(dirname, 'mods')
+        dirname = os.path.join(dirname)
         if os.path.isdir(dirname):
             return dirname
         else:
